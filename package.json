@@ -1,0 +1,30 @@
+{
+  "name": "koa-api-proxy",
+  "version": "1.0.0",
+  "description": "koa-api-proxy can help you cross domain ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/movooc/koa-api-proxy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/movooc/koa-api-proxy.git"
+  },
+  "dependencies": {
+    "co": "~4.6.0",
+    "co-fs": "~1.2.0",
+    "co-request": "~1.0.0",
+    "koa-formidable": "~1.0.0"
+  },
+  "devDependencies": {
+    "koa": "~1.1.2",
+  },
+  "keywords": [
+    "koa",
+    "proxy",
+    "http"
+  ],
+  "author": "Movooc",
+  "license": "MIT"
+}
