@@ -1,7 +1,7 @@
-koa-proxy
+koa-api-proxy
 =========
 
-koa-proxy proxy middleware. support all feature of [proxy](https://github.com/mde/ejs).
+koa-proxy proxy middleware. support all feature of [proxy](https://github.com/movooc/koa-api-proxy).
 
 ## Usage
 
@@ -10,7 +10,7 @@ koa-proxy proxy middleware. support all feature of [proxy](https://github.com/md
 
 ```js
 var app = require('koa')();
-var proxy = require('koa-proxy');
+var proxy = require('koa-api-proxy');
 
 app.use(proxy); // proxy '/api' request to sever
 
