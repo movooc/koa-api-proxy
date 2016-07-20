@@ -18,7 +18,7 @@ app.use(proxy); // proxy '/api' request to sever
 
 ### Example
 
-you can use it at kao server.
+you can use it at koa server.
 
 ```js
 function *(next) {
